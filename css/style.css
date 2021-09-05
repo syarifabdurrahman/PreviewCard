@@ -1,0 +1,103 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 15px;
+}
+    
+img{
+   height: 100%;
+   width: 100%;
+   object-fit: fill;
+   mix-blend-mode: multiply;
+   border-radius: 0 10px 10px 0;
+}
+
+a{
+    color: aquamarine;
+     text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 255, 85);
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.container{
+   display: flex;
+   background-color: hsl(244, 38%, 16%);
+   border-radius: 13px;
+   margin: 120px;
+   text-align: center;
+}
+
+.left-Container{
+    flex: 0 0 70%;
+}
+
+.r1{
+    text-align: left;
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 23px;
+}
+
+.r2{
+    text-align: left;
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 2;
+    font-weight: lighter;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.r3{
+    margin: 2% 0 3% 0;
+    padding: 10px;
+    display: inline-flex;
+    text-align: left;
+}
+
+.right-container{
+    flex: 0 0 50%;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 0 10px 10px 0;
+}
+
+.statFontsize {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.col-1 {
+    position: relative;
+    right: 50px;
+    font-weight: lighter;
+}
+
+.col-2 {
+    position: relative;
+    font-weight: lighter;
+}
+
+.col-3 {
+    position: relative;
+    left: 50px;
+    font-weight: lighter;
+}
+
+.statItem {
+    color: hsl(0, 0%, 59%);
+    margin: 6px auto 0 auto;
+}
+
+.attribution {
+    margin-top: -100px;
+    text-align: center;
+}
